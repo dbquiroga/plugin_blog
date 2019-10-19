@@ -1,8 +1,8 @@
 ---
 path: "/post-six"
-cover: "../2018-10-16/speed.jpg"
+cover: "./programmer.jpg"
 date: "2018-10-20"
-title: "Post Number Six"
+title: "Ser programadora en el Siglo XXI"
 tags: ['gatsby', 'tutorial']
 published: true
 ---

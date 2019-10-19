@@ -1,8 +1,8 @@
 ---
 path: "/post-three"
 cover: "./finance.jpg"
-date: "2018-10-17"
-title: "Post Number Three"
+date: "2019-10-17"
+title: "Mujeres en tecnología"
 tags: ['gatsby', 'news', 'other']
 published: true
 ---
