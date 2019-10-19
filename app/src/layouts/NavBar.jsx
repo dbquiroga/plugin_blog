@@ -2,12 +2,13 @@ import React from 'react';
 import { Link } from 'gatsby';
 import styled from '@emotion/styled';
 import Headroom from 'react-headroom';
-import logo from '../../static/logo/header-logo.png';
+import logo from '../../static/logo/logo-plugin.png';
 
 const StyledLink = styled(Link)`
   display: flex;
   font-weight: 700;
   align-items: center;
+  img { width: 50px; height:auto;}
 `;
 
 const Nav = styled.nav`
