@@ -1,8 +1,8 @@
 ---
 path: "/post-two"
 cover: "./speed.jpg"
-date: "2018-10-16"
-title: "Post Number Two"
+date: "2019-10-16"
+title: "Hablemos de programación"
 published: true
 tags: ['test', 'webpack', 'other']
 ---

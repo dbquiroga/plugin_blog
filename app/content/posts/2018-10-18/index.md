@@ -1,8 +1,8 @@
 ---
 path: "/post-four"
-cover: "../2018-10-17/finance.jpg"
+cover: "./coffee-on-wooden-table-and-a-smart-phone.jpg"
 date: "2018-10-18"
-title: "Post Number Four"
+title: "Cómo ser Freelance"
 tags: ['gatsby', 'other']
 published: true
 ---

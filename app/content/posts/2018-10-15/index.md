@@ -2,7 +2,7 @@
 path: "/post-one"
 cover: "./blocks.jpg"
 date: "2018-10-15"
-title: "Post Number One"
+title: "Cómo empezar con Gatsby"
 published: true
 tags: ['website', 'react', 'other']
 ---
