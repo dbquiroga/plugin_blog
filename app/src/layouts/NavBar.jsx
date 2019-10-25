@@ -16,11 +16,11 @@ const Nav = styled.nav`
   justify-content: flex-end;
   font-family: ${props => props.theme.fontFamily.body};
   font-weight: 500;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   align-items: center;
   a {
     color: ${props => props.theme.colors.white.base};
-    margin-left: 2rem;
+    margin-left: 1rem;
     transition: all ${props => props.theme.transitions.default.duration};
     &:hover {
       color: ${props => props.theme.colors.white.grey};
@@ -37,6 +37,8 @@ const NavBar = () => (
       <Link to="/">Inicio</Link>
       <Link to="/blog">Blog</Link>
       <Link to="/about">Nosotras</Link>
+      <a href="https://pluginonline.net" target="_blank">Plug In</a>
+      
     </Nav>
   </Headroom>
 );
