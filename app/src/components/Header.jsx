@@ -15,6 +15,11 @@ const Wrapper = styled.header`
   }
   position: relative;
   overflow: hidden;
+
+  h1 {
+    size: 3rem;
+    margin: 0;
+  }
 `;
 
 const Text = styled.div`
