@@ -17,7 +17,7 @@ const Wrapper = styled.header`
   overflow: hidden;
 
   h1 {
-    size: 3rem;
+    font-size: 3rem;
     margin: 0;
   }
 `;
