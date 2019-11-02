@@ -35,12 +35,11 @@ const StyledRow = styled.div`
   }
 
   @media (max-width: ${props => props.theme.breakpoints.s}) {    
-    flex-direction: column;
-    
+    flex-direction: column; 
     .col-md-6 {
     width: 100%;
-  }
-  }
+    }
+  }  
 `;
 
 
@@ -85,12 +84,10 @@ const About = center => (
           name="Day Quiroga"
           description={(
             <>
-              Lorem ipsum <b>dolor</b> sit amet consectetur adipiscing elit bibendum erat morbi magnis,
-              curabitur suspendisse est cubilia libero mi interdum at cum inceptos.
-              Scelerisque quis habitasse nisl suscipit cum morbi nulla accumsan nostra non,
-              conubia pellentesque convallis dictum fermentum sollicitudin senectus eleifend.
-              Justo natoque facilisi ante consequat mauris erat porta primis fusce,
-              nunc sagittis imperdiet fames nulla ridiculus litora.
+              Estudie marketing y publicidad, me encontré con la programación y el mundo del software.<br/>
+              <b>Trabajé en comunicación digital: SEO, SEM, medición de Kpis y Google Analitycs,</b> hasta que quise hacer sitios webs.
+              <br/><b>Hoy trabajo como tester de software, me dedico a hacer sitios webs y estudio Analista en sistema.</b>
+              <br/>Amo los MPV (minimos productos viables) y crear nuevos proyectos. 
               <br/>
               <a href="https://github.com/dbquiroga" target="_blank">GitHub</a>
               <br/>
