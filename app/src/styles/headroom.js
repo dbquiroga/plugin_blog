@@ -7,11 +7,12 @@ const headroom = css`
     width: 100%;
     z-index: 2000;
     top: 0;
+    
   }
 
-  @media (max-width: ${props => props.theme.breakpoints.s}) {
+  @media (max-width: 600px) {
     .headroom-wrapper {
-    bottom: 0px !important;
+    bottom: 0px;
     top: unset;
     }
   }
@@ -40,11 +41,13 @@ const headroom = css`
   .headroom--unpinned {
     position: fixed;
     transform: translateY(-100%);
+    background-color: white;
     transition: ${theme.transitions.headroom.transition};
   }
   .headroom--pinned {
     position: fixed;
     transform: translateY(0);
+    background-color: white;
     transition: ${theme.transitions.headroom.transition};
     background-color: ${theme.colors.white.light};
     box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
