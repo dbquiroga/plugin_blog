@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from '@emotion/styled';
 
+
+
 const Wrapper = styled.footer`
   text-align: center;
   position: relative;
@@ -14,7 +16,6 @@ const Wrapper = styled.footer`
     padding-top: 0.5rem;
   }
   div{
-    
     width: 100%;
     display: flex;
     @media (max-width: ${props => props.theme.breakpoints.s}) {
@@ -36,11 +37,21 @@ const Text = styled.div`
   padding-${props=> props.align}: 15px;
   text-align:${props=> props.align};
   p{
-    
     margin:0;
     padding-left: 0.5rem;
+    display: grid;
+    margin-bottom:1rem;
+    a{
+      color:#fff;
+    } 
   }
- 
+  input{
+      width: 100%;
+      margin-bottom:1rem;
+    }
+  a{
+    margin-bottom:1rem;
+  }
 `;
 
 
@@ -48,14 +59,20 @@ const Footer = () => (
   <Wrapper>
     <div>
      <Text align="left">
-      <p>hola@pluginonline.net
+      <p><a href="#">hola@pluginonline.net</a>
       <a href="https://www.linkedin.com/company/28828264/admin/" target="_blank" >Linkedin</a>
       <a href="https://www.facebook.com/Plug-In-107508997300613/?eid=ARAR5GonqU34h0tyZ0uDXGVpTGdmvCHfCsNJAe2rlXpurpehPiZAXiNgUicDttNZmjvjcFJCUcO6evIZ" target="_blank">Facebook</a></p>
     </Text>
     <Text align="right">
-    <p>hola@pluginonline.net
-      <a href="https://www.linkedin.com/company/28828264/admin/" target="_blank" >Linkedin</a>
-      <a href="https://www.facebook.com/Plug-In-107508997300613/?eid=ARAR5GonqU34h0tyZ0uDXGVpTGdmvCHfCsNJAe2rlXpurpehPiZAXiNgUicDttNZmjvjcFJCUcO6evIZ" target="_blank">Facebook</a></p>
+    <form>
+    <label>
+    <p>Dejanos tu direccion de correo y te contactamos</p> 
+   <input type="email" name="email"/>
+    </label>
+    <input type="submit" value="Submit" />
+    </form>
+  
+   
     </Text>
   </div>
   <span>

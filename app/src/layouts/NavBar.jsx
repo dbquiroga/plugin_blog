@@ -31,13 +31,13 @@ const Nav = styled.nav`
 const NavBar = () => (
   <Headroom calcHeightOnResize disableInlineStyles>
     <StyledLink to="/">
-      <img src={logo} alt="Gatsby Logo" />
+    <a href="https://pluginonline.net" target="_blank"><img src={logo} alt="Gatsby Logo" ></img></a>
     </StyledLink>
     <Nav>
       <Link to="/">Inicio</Link>
       <Link to="/blog">Blog</Link>
       <Link to="/about">Nosotras</Link>
-      <a href="https://pluginonline.net" target="_blank">Plug In</a>
+  
       
     </Nav>
   </Headroom>
