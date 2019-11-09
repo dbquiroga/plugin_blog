@@ -8,6 +8,14 @@ const headroom = css`
     z-index: 2000;
     top: 0;
   }
+
+  @media (max-width: ${props => props.theme.breakpoints.s}) {
+    .headroom-wrapper {
+    bottom: 0px !important;
+    top: unset;
+    }
+  }
+
   .headroom {
     display: flex;
     justify-content: space-between;
