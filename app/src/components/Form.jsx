@@ -31,6 +31,11 @@ import styled from '@emotion/styled';
       width: 100%;
       margin-bottom:1rem;
     }
+    label{
+      p{
+        padding:0;
+      }
+    }
   
 `;
   
