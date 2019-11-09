@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
+import { Form } from 'components';
+
 
 
 
@@ -12,6 +14,8 @@ const Wrapper = styled.footer`
   background: ${props => props.theme.gradient.rightToLeft};
   font-family: ${props => props.theme.fontFamily.body};
   font-weight: 500;
+  padding-bottom: 1rem;
+  
   @media (max-width: ${props => props.theme.breakpoints.s}) {
     padding-top: 0.5rem;
   }
@@ -64,15 +68,7 @@ const Footer = () => (
       <a href="https://www.facebook.com/Plug-In-107508997300613/?eid=ARAR5GonqU34h0tyZ0uDXGVpTGdmvCHfCsNJAe2rlXpurpehPiZAXiNgUicDttNZmjvjcFJCUcO6evIZ" target="_blank">Facebook</a></p>
     </Text>
     <Text align="right">
-    <form>
-    <label>
-    <p>Dejanos tu direccion de correo y te contactamos</p> 
-   <input type="email" name="email"/>
-    </label>
-    <input type="submit" value="Submit" />
-    </form>
-  
-   
+    <Form></Form>
     </Text>
   </div>
   <span>

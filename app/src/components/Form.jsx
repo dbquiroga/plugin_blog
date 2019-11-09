@@ -1,38 +1,52 @@
 import React from 'react';
-/*
+import styled from '@emotion/styled';
 
-class EssayForm extends React.Component {
-    constructor(props) {
-      super(props);
-      this.state = {
-        value: 'Please write an essay about your favorite DOM element.'
-      };
-  
-      this.handleChange = this.handleChange.bind(this);
-      this.handleSubmit = this.handleSubmit.bind(this);
-    }
-  
-    handleChange(event) {
-      this.setState({value: event.target.value});
-    }
-  
-    handleSubmit(event) {
-      alert('An essay was submitted: ' + this.state.value);
-      event.preventDefault();
-    }
-  
-    render() {
-      return (
-        <form onSubmit={this.handleSubmit}>
-          <label>
-            Essay:
-            <textarea value={this.state.value} onChange={this.handleChange} />
-          </label>
-          <input type="submit" value="Submit" />
-        </form>
-      );
-    }
+
+
+
+
+
+
+  const Text = styled.div`
+@media (max-width: ${props => props.theme.breakpoints.s}) {
+  flex-direction: row;
+  text-align:center;
+  padding:0;}
+  width:50%;
+  margin: 0;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  color: ${props => props.theme.colors.white.light};
+  padding-right: 15px;
+  text-align:center;
+  p{
+    margin:0;
+    display: grid;
+    margin-bottom:1rem;
+    a{
+      color:#fff;
+    } 
   }
-  */
+  input{
+      width: 100%;
+      margin-bottom:1rem;
+    }
+  
+`;
+  
+
+  const Form = () => (
+  <Text>
+    <form>
+      <label>
+        <p>Dejanos tu direccion de correo y te contactamos</p>
+        <input type="email" name="email" />
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+  </Text>);
+
+export default Form;
+
 
   

@@ -37,8 +37,6 @@ const NavBar = () => (
       <Link to="/">Inicio</Link>
       <Link to="/blog">Blog</Link>
       <Link to="/about">Nosotras</Link>
-  
-      
     </Nav>
   </Headroom>
 );
