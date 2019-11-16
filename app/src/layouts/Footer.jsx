@@ -1,8 +1,12 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import { Form } from 'components';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons'
 
-
+library.add(fab);
 
 
 const Wrapper = styled.footer`
@@ -63,10 +67,10 @@ const Footer = () => (
   <Wrapper>
     <div>
      <Text align="left">
-      <p><a href="#">hola@pluginonline.net</a>
+     
+      <p><FontAwesomeIcon icon={["fab","facebook"]}  /><a href="#">hola@pluginonline.net</a>
       <a href="https://www.linkedin.com/company/28828264/admin/" target="_blank" >Linkedin</a>
-      <a href="https://www.facebook.com/Plug-In-107508997300613/?eid=ARAR5GonqU34h0tyZ0uDXGVpTGdmvCHfCsNJAe2rlXpurpehPiZAXiNgUicDttNZmjvjcFJCUcO6evIZ" target="_blank">Facebook<i class="fab fa-instagram"></i>
-</a></p>
+      <a href="https://www.facebook.com/Plug-In-107508997300613/?eid=ARAR5GonqU34h0tyZ0uDXGVpTGdmvCHfCsNJAe2rlXpurpehPiZAXiNgUicDttNZmjvjcFJCUcO6evIZ" target="_blank">Facebook</a></p>
     </Text>
     <Text align="right">
     <Form></Form>
