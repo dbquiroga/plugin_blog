@@ -11,11 +11,46 @@ const headroom = css`
   }
 
   @media (max-width: 600px) {
-    .headroom-wrapper {
+    
+    .headroom-wrapper{
+      .headroom--unpinned, .headroom--scrolled, .headroom--unfixed, .headroom--pinned {
+        position: fixed;
+        transform: translateY(-100%);
+        background: white;
+    }
+      .headroom {
+        bottom: 0;
+        left: 0;
+        right: 0;
+        /* zIndex: 1; */
+      }
+/*   
+      .headroom--unpinned, .headroom--scrolled, .headroom--unfixed, .headroom--pinned {
+        position: fixed;
+        transform: translateY(-100%);
+      } */
+    
+    /* .headroom-wrapper {
     bottom: 0px;
     top: unset;
+
+    .headroom {
+    position: absolute;
+    bottom: 0px;
+    } */
+/*
+    .headroom--unfixed{
+      position: fixed;
+      transform: translateY(-100%);
+      background-color: white;
     }
-  }
+
+    .headroom--pinned{
+      transform: translateY(-100%);
+    }
+  */
+    }
+  
 
   .headroom {
     display: flex;

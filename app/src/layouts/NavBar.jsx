@@ -19,7 +19,7 @@ const Nav = styled.nav`
   font-size: 0.9rem;
   align-items: center;
   a {
-    color: ${props => props.theme.colors.white.base};
+    color: ${props => props.theme.colors.black.base};
     margin-left: 1rem;
     transition: all ${props => props.theme.transitions.default.duration};
     &:hover {
