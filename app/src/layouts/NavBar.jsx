@@ -4,7 +4,7 @@ import styled from '@emotion/styled';
 import Headroom from 'react-headroom';
 import logo from '../../static/logo/logo-plugin.png';
 
-const StyledLink = styled(Link)`
+const StyledLink = styled.a`
   display: flex;
   font-weight: 700;
   align-items: center;
@@ -30,8 +30,7 @@ const Nav = styled.nav`
 
 const NavBar = () => (
   <Headroom calcHeightOnResize disableInlineStyles>
-    <StyledLink to="/">
-    <a href="https://pluginonline.net" target="_blank"><img src={logo} alt="Gatsby Logo" ></img></a>
+    <StyledLink href="https://pluginonline.net" target="_blank"><img src={logo} alt="Gatsby Logo" ></img>
     </StyledLink>
     <Nav>
       <Link to="/">Inicio</Link>
