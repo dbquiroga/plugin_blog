@@ -65,7 +65,8 @@ const Footer = () => (
      <Text align="left">
       <p><a href="#">hola@pluginonline.net</a>
       <a href="https://www.linkedin.com/company/28828264/admin/" target="_blank" >Linkedin</a>
-      <a href="https://www.facebook.com/Plug-In-107508997300613/?eid=ARAR5GonqU34h0tyZ0uDXGVpTGdmvCHfCsNJAe2rlXpurpehPiZAXiNgUicDttNZmjvjcFJCUcO6evIZ" target="_blank">Facebook</a></p>
+      <a href="https://www.facebook.com/Plug-In-107508997300613/?eid=ARAR5GonqU34h0tyZ0uDXGVpTGdmvCHfCsNJAe2rlXpurpehPiZAXiNgUicDttNZmjvjcFJCUcO6evIZ" target="_blank">Facebook<i class="fab fa-instagram"></i>
+</a></p>
     </Text>
     <Text align="right">
     <Form></Form>

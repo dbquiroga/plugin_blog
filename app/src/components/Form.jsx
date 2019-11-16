@@ -1,12 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
 
-
-
-
-
-
-
   const Text = styled.div`
 @media (max-width: ${props => props.theme.breakpoints.s}) {
   flex-direction: row;
