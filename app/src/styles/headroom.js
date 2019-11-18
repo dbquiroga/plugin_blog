@@ -15,7 +15,7 @@ const headroom = css`
     .headroom-wrapper{
       .headroom--unpinned, .headroom--scrolled, .headroom--unfixed, .headroom--pinned {
         position: fixed;
-        transform: translateY(-100%);
+        transform: translateY(-90%);
         background: white;
     }
       .headroom {
