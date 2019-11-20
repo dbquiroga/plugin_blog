@@ -3,10 +3,12 @@ import styled from '@emotion/styled';
 import { Form } from 'components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons';
-import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+
 
 library.add(fab);
+
 
 
 const Wrapper = styled.footer`
@@ -51,6 +53,10 @@ const Text = styled.div`
     margin-bottom:1rem;
     a{
       color:#fff;
+      margin-left: 1rem;
+    }
+    div{
+      display: inline-block;
     } 
   }
   input{
@@ -60,6 +66,7 @@ const Text = styled.div`
   a{
     margin-bottom:1rem;
   }
+  
 `;
 
 
@@ -68,9 +75,11 @@ const Footer = () => (
     <div>
      <Text align="left">
      
-      <p><FontAwesomeIcon icon={["fab","facebook"]}  /><a href="#">hola@pluginonline.net</a>
-      <a href="https://www.linkedin.com/company/28828264/admin/" target="_blank" >Linkedin</a>
-      <a href="https://www.facebook.com/Plug-In-107508997300613/?eid=ARAR5GonqU34h0tyZ0uDXGVpTGdmvCHfCsNJAe2rlXpurpehPiZAXiNgUicDttNZmjvjcFJCUcO6evIZ" target="_blank">Facebook</a></p>
+      <p><FontAwesomeIcon icon={["fas","fa-envelope"]}  /><a href="#">hola@pluginonline.net</a>
+      <div><FontAwesomeIcon icon={["fab","linkedin-in"]}  /><a href="https://www.linkedin.com/company/28828264/admin/" target="_blank" >Linkedin</a></div>
+      <div><FontAwesomeIcon icon={["fab","instagram"]}  /><a href="https://www.instagram.com/plug_in_software/" target ="_blank">Instagram</a></div>
+      <div><FontAwesomeIcon icon={["fab","facebook-f"]}  /><a href="https://www.facebook.com/Plug-In-107508997300613/?eid=ARAR5GonqU34h0tyZ0uDXGVpTGdmvCHfCsNJAe2rlXpurpehPiZAXiNgUicDttNZmjvjcFJCUcO6evIZ" target="_blank">Facebook</a></div></p>
+
     </Text>
     <Text align="right">
     <Form></Form>
