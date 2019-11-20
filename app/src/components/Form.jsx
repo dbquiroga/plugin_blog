@@ -22,7 +22,7 @@ import styled from '@emotion/styled';
     } 
   }
   input{
-      width: 100%;
+      width: 85%;
       margin-bottom:1rem;
     }
     label{

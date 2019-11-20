@@ -59,13 +59,17 @@ const Text = styled.div`
       display: inline-block;
     } 
   }
+  form{
+    margin-bottom:5rem;
+  }
   input{
-      width: 100%;
+      width: 80%;
       margin-bottom:1rem;
     }
   a{
     margin-bottom:1rem;
   }
+  
   
 `;
 
