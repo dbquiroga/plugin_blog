@@ -20,6 +20,8 @@ const headroom = css`
       top: unset;
   
       .headroom--unpinned, .headroom--scrolled, .headroom--unfixed, .headroom--pinned {
+        position: fixed;
+        transform: translateY(0%);
         background: white;
         padding-top: unset;
         padding-bottom: 0px;
