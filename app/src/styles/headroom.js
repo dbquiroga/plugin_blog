@@ -7,7 +7,8 @@ const headroom = css`
     width: 100%;
     z-index: 2000;
     top: 0;
-    
+    background: white;
+    padding: 1.5rem 0.5rem;    
   }
 
   @media (max-width: 600px) {
@@ -18,6 +19,7 @@ const headroom = css`
       left: 0;
       right: 0;
       top: unset;
+      padding: 10px 30px;
   
       .headroom--unpinned, .headroom--scrolled, .headroom--unfixed, .headroom--pinned {
         position: fixed;
@@ -36,7 +38,7 @@ const headroom = css`
     justify-content: space-between;
     flex-direction: row;
     width: 100%;
-    padding: 1rem 1.5rem;
+    padding: 1.5rem 0.5rem;
     svg {
       height: 2.5rem;
       g {
