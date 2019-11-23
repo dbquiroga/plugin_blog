@@ -10,6 +10,15 @@ export const colors = {
     light: '#4b4e57',
     blue: '#2e3246',
   },
+
+  grey:{
+    base: '#6C757D',
+  },
+
+  violet: {
+    base: '#540bc8',
+  },
+
   primary: {
     base: '#3498db',
     light: '#3e5fbc',

@@ -13,42 +13,19 @@ const headroom = css`
   @media (max-width: 600px) {
     
     .headroom-wrapper{
-      .headroom--unpinned, .headroom--scrolled, .headroom--unfixed, .headroom--pinned {
-        position: fixed;
-        transform: translateY(-90%);
-        background: white;
-    }
-      .headroom {
-        bottom: 0;
-        left: 0;
-        right: 0;
-        /* zIndex: 1; */
-      }
-/*   
-      .headroom--unpinned, .headroom--scrolled, .headroom--unfixed, .headroom--pinned {
-        position: fixed;
-        transform: translateY(-100%);
-      } */
-    
-    /* .headroom-wrapper {
-    bottom: 0px;
-    top: unset;
-
-    .headroom {
-    position: absolute;
-    bottom: 0px;
-    } */
-/*
-    .headroom--unfixed{
       position: fixed;
-      transform: translateY(-100%);
-      background-color: white;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      top: unset;
+  
+      .headroom--unpinned, .headroom--scrolled, .headroom--unfixed, .headroom--pinned {
+        background: white;
+        padding-top: unset;
+        padding-bottom: 0px;
+        transition: none;
+        transform: none;
     }
-
-    .headroom--pinned{
-      transform: translateY(-100%);
-    }
-  */
     }
   
 

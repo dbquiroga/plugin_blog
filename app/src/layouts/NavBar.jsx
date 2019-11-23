@@ -19,11 +19,11 @@ const Nav = styled.nav`
   font-size: 0.9rem;
   align-items: center;
   a {
-    color: ${props => props.theme.colors.black.base};
+    color: ${props => props.theme.colors.grey.base};
     margin-left: 1rem;
     transition: all ${props => props.theme.transitions.default.duration};
     &:hover {
-      color: ${props => props.theme.colors.white.grey};
+      color: ${props => props.theme.colors.violet.base};
     }
   }
 `;
